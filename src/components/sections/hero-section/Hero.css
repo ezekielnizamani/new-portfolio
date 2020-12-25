@@ -1,0 +1,47 @@
+.hero{
+  background-image: url('../../../assets/background-1.jpg');
+        background-size: cover;
+ 
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__content{
+position: absolute;
+text-align: center;
+z-index: 1;
+line-height: 2;
+}
+.hero-text{
+      font-style: italic;
+      font-size: 14px;
+  
+}
+
+.hero-overlay{
+    background-color: rgba(1, 11, 20, .3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+
+}
+.blur{
+ filter: blur(1px);
+ background-color: rgba(255, 255, 255,0.3);
+
+ height: 55px;
+ position: absolute;
+ top:5px;
+ bottom: 0;
+width: 100%;    
+clip-path: polygon(0 0, 90% 0, 100% 100%, 4% 100%);
+  
+}
