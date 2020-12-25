@@ -7,7 +7,7 @@ const HeroSection = () => (
   <div className="hero">
     {/* hero content */}
     <div className="hero__content">
-      <h1 className="heading-1">H! I am Ezekiel</h1>
+      <h1 className="hero-heading">H! I am Ezekiel</h1>
       <div className="blur"></div>
 
       <p className="hero-text">

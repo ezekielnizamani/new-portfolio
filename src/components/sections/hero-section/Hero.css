@@ -19,8 +19,14 @@ line-height: 2;
 }
 .hero-text{
       font-style: italic;
-      font-size: 14px;
-  
+      font-size: 13px;
+
+}
+.hero-heading{
+  font-size: 2rem;
+  padding: 0 120px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .hero-overlay{
@@ -34,7 +40,7 @@ line-height: 2;
 
 }
 .blur{
- filter: blur(1px);
+ filter: blur(.5px);
  background-color: rgba(255, 255, 255,0.3);
 
  height: 55px;
@@ -42,6 +48,6 @@ line-height: 2;
  top:5px;
  bottom: 0;
 width: 100%;    
-clip-path: polygon(0 0, 90% 0, 100% 100%, 4% 100%);
+clip-path: polygon(0 0, 90% 0, 100% 100%, 5% 100%);
   
 }
