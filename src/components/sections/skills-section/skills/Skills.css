@@ -1,0 +1,27 @@
+.skills{
+    display: flex;
+
+    list-style: none;
+ 
+    align-items: center;
+    margin-top:5rem;
+    flex-wrap: wrap;
+  
+   
+    justify-content: center;
+  
+  }
+  .skill-name{
+    font-size:20px;
+    margin-top:10px;
+  }
+.skill{
+  
+  margin: 10px 20px;
+  
+}
+.skill-icon{
+    width: 150px;
+    object-fit: contain;
+    
+}
