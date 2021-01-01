@@ -1,0 +1,10 @@
+.portfolio-section{
+    text-align: center;
+    padding: 5rem 0;
+}
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+       
+}
